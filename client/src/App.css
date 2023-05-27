@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: o;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  margin: 50px auto;
+  width: 1000px;
+  border: 2px solid #7b7b7b;
+  border-radius: 8px;
+  padding: 30px 10px 0px 30px;
+}
+
+.num-btn {
+  border-radius: 15px;
+  padding: 0px 8px;
+  margin: 0 2px;
+  background: #ffffff;
+  border: 2px solid #28a34f;
+}
+
+.btn-active {
+  background: #a8ecbe;
+}
+
+.select {
+  border: 2px solid #28a34f;
+}
