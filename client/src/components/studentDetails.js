@@ -54,7 +54,7 @@ const StudentDetails = () => {
             </thead>
             {students.map((student) => (
               <tbody>
-                <tr>
+                <tr className={student.id%2===0?"tab-active":""}>
                   <th scope="row">{student.id}</th>
                   <td>{student.name}</td>
                   <td>{student.total}</td>
